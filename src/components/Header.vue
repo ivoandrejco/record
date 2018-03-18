@@ -3,14 +3,14 @@
 	<div class="navbar navbar-default">
 		<div class="navbar-header">
 			<h1>
-				<route-link :to="{name:'iMain'}">
+				<router-link :to="{name:'iMain'}">
 					{{sitename}}
-				</route-link>
+				</router-link>
 			</h1>
 		</div>
 		<div class="nav navbar-nav navbar-right cart">
 			<button type="button" class="btn btn-default btn-lg" @click="showCheckout">
-				<span class="glyphicon glyphicon-shopping-cart">{{ carItemCount }} </span> Checkout
+				<span class="glyphicon glyphicon-shopping-cart">{{ cartItemCount }} </span> Checkout
 			</button>
 		</div>
 	</div>
